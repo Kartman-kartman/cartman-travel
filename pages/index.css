@@ -1,8 +1,63 @@
 @import "../vendor/normalize.css";
 @import "../blocks/content/content.css";
-@import "../blocks/page/page.css";
+@import "../blocks/content/content.css";
+@import "../pages/page.css";
+@import "../fonts/InterWeb/inter.css";
+@import "./content.css";
+
+
+@import "../blocks/header/header.css";
+@import "../blocks/logo/logo.css";
+
+@import "../blocks/lead/lead.css";
+@import "../blocks/lead/__title/lead__title.css";
+@import "../blocks/lead/__subtitle/lead__subtitle.css";
+@import "../blocks/lead/__image/lead__image.css";
+@import "../blocks/lead/__caption/lead__caption.css";
+
+
+
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__title/intro__title.css";
+@import "../blocks/intro/__text/intro__text.css";
+@import "../blocks/intro/__list/intro__list.css";
+
+
+
+
+
+@import "../blocks/photo-grid/photo-grid.css";
+@import "../blocks/photo-grid/__images/photo-grid__images.css";
+
+
+@import "../blocks/places/places.css";
+@import "../blocks/places/place/place.css";
+@import "../blocks/places/place/__paragraph/place__paragraph.css";
+@import "../blocks/places/place/__title/place__title.css";
+@import "../blocks/places/place/__paragraph/place__paragraph2.css";
+@import "../blocks/places/place/__url-heading/place__url-heading.css";
+@import "../blocks/places/place/__link/place__link.css";
+@import "../blocks/places/place/__image/place__image.css";
+
+
+
+@import "../blocks/cover/cover.css";
+@import "../blocks/cover/__title/cover__title.css";
+@import "../blocks/cover/__subtitle/cover__subtitle.css";
+
 
 
 
 @import "../blocks/footer/footer.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+
+
+@media (max-width:320px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 

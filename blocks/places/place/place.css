@@ -1,0 +1,9 @@
+.place {
+    display: grid;
+    width:984px ;
+    /* min-height:584px ; */
+    grid-template-columns:repeat(auto-fit,1fr);
+    grid-template-rows: repeat(4,min-content);
+    grid-auto-rows:minmax(320px,auto);
+    grid-auto-flow:dense;
+}

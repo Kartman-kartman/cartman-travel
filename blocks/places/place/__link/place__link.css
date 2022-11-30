@@ -1,0 +1,14 @@
+.place__link {
+    max-width: 460px;
+    grid-column:2/3;
+    grid-row:2/3;
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.place__link:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,14 @@
+.place__paragraph {
+    max-width: 460px;
+    min-width: 320px;
+    grid-column:2/3;
+    grid-row:3/5;
+   color:aliceblue;
+   font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 163%;
+
+color: #FFFFFF;
+
+}
