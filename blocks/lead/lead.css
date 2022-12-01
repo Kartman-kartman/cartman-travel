@@ -1,12 +1,26 @@
 .lead {
-    width: 984px;
-    height: 1005px;
-    margin: 0 auto;
+ box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-image: url("../../images/1280/kalegin-michail-179870-unsplash.png");
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    flex-direction: column;
+    padding-bottom: 92px;
+    align-items: center;
+    max-width: 984px;
+    margin: 0 48px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1279px) {
+
+    .lead {
+        max-width: none;
+        margin: 0;
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .lead {
+        padding-bottom: 64px;
+        margin: 0;
+    }
 }

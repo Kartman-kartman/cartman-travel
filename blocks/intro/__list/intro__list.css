@@ -1,12 +1,10 @@
 .intro__list {
-    width: 690px;
-height: 90px;
+max-width: 100%;
 font-style: normal;
 font-weight: 700;
 font-size: 12px;
 line-height: 18px;
-/* or 150% */
-
-
+list-style-type: none;
+margin: 0;
 color: #FFFFFF;
 }

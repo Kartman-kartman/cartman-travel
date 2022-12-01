@@ -1,0 +1,14 @@
+
+    .lead__image-block {
+        width: 100%;
+    }
+    
+    /*при разрешении от 1023 до 1279px */
+    /*разрешение 1024px */
+    @media screen and (min-width: 1023px) and (max-width: 1279px) {
+    
+        .lead__image-block {
+            width: auto;
+            max-width: 928px;
+        }
+    }

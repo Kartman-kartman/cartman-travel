@@ -7,13 +7,17 @@
 
 
 @import "../blocks/header/header.css";
-@import "../blocks/logo/logo.css";
+@import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/header/__lang-link/header__lang-link.css";
 
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__title/lead__title.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
 @import "../blocks/lead/__image/lead__image.css";
 @import "../blocks/lead/__caption/lead__caption.css";
+@import "../blocks/lead/__picture-block/lead__picture-block.css";
+
 
 
 
@@ -33,6 +37,7 @@
 @import "../blocks/places/places.css";
 @import "../blocks/places/place/place.css";
 @import "../blocks/places/place/__paragraph/place__paragraph.css";
+@import "../blocks/places/place/__block-paragraph/place__block-paragraph.css";
 @import "../blocks/places/place/__title/place__title.css";
 @import "../blocks/places/place/__paragraph/place__paragraph2.css";
 @import "../blocks/places/place/__url-heading/place__url-heading.css";
@@ -52,67 +57,4 @@
 @import "../blocks/footer/__link/footer__link.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
 
-
-@media (max-width:1024px) {
-    .page {
-        width: ;
-    }
-    .cover {
-       
-       width: 1024px;
-       height: 640px;
-      
-       }
-       .lead {
-        width: 962px;
-        height: 928px;
-       }
-}
-@media (max-width:768px) {
-    .page {
-        width: ;
-    }
-    .cover {
-       
-       width: 768px;
-       height: 480px;
-       }
-
-       .lead {
-        width: 768px;
-        height: 862px;
-       }
-}
-@media (max-width:334px) {
-    .page {
-        width: ;
-    }
-    .lead__title {
-      font-weight: 900;
-        font-size: 40px;
-        line-height: 44px;
-       
-    .intro__title {
-font-size: 32px;
-    line-height: 35px;
-    
-    }
-    .cover {       
-       width: 320px;
-       height: 200px;      
-       }
-       .lead {
-        width: 320px;
-        height: 406px;
-       }
-}
-
-
-@media (max-width:334px) {
-    .place {
-        display: flex;
-        flex-direction: column;
-    }
-
-}
 
