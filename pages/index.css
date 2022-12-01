@@ -53,7 +53,62 @@
 @import "../blocks/footer/__copyright/footer__copyright.css";
 
 
-@media (max-width:320px) {
+@media (max-width:1024px) {
+    .page {
+        width: ;
+    }
+    .cover {
+       
+       width: 1024px;
+       height: 640px;
+      
+       }
+       .lead {
+        width: 962px;
+        height: 928px;
+       }
+}
+@media (max-width:768px) {
+    .page {
+        width: ;
+    }
+    .cover {
+       
+       width: 768px;
+       height: 480px;
+       }
+
+       .lead {
+        width: 768px;
+        height: 862px;
+       }
+}
+@media (max-width:334px) {
+    .page {
+        width: ;
+    }
+    .lead__title {
+      font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+       
+    .intro__title {
+font-size: 32px;
+    line-height: 35px;
+    
+    }
+    .cover {       
+       width: 320px;
+       height: 200px;      
+       }
+       .lead {
+        width: 320px;
+        height: 406px;
+       }
+}
+
+
+@media (max-width:334px) {
     .place {
         display: flex;
         flex-direction: column;
