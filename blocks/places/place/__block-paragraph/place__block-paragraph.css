@@ -4,3 +4,10 @@
     grid-column:2/3;
     grid-row:3/5;
 }
+
+@media screen and (max-width: 610px) {
+
+    .place__block-paragraph {
+       max-width:320px;
+    }
+}

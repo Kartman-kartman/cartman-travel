@@ -1,14 +1,10 @@
 @import "../vendor/normalize.css";
-@import "../blocks/content/content.css";
-@import "../blocks/content/content.css";
-@import "../pages/page.css";
 @import "../fonts/InterWeb/inter.css";
 @import "./content.css";
 
 
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
-@import "../blocks/header/__lang-link/header__lang-link.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
 
 @import "../blocks/lead/lead.css";

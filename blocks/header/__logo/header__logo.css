@@ -3,21 +3,20 @@
         padding-left: 48px;
         height: 52px;
         width: 176px;
-    }
-    
-    @media screen and (max-width: 760px) {
-    
-        .header__logo {
-            height: 42px;
-            width: 142px;
-            padding-left: 16px;
-        }
-    }
-    
-    @media screen and (min-width: 767px) and (max-width: 1023px) {
-    
-        .header__logo {
-            padding-left: 24px;
-        }
+}
+@media screen and (max-width: 1023px) {
+
+    .header__logo {
+        padding-left: 24px;
     }
 }
+
+@media screen and (max-width: 760px) {
+    
+    .header__logo {
+        height: 42px;
+        width: 142px;
+        padding-left: 16px;
+    }
+}
+

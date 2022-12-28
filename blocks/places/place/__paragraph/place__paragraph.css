@@ -1,7 +1,7 @@
 .place__paragraph {
    
-   color:aliceblue;
-   font-style: normal;
+color:aliceblue;
+font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 163%;
@@ -9,3 +9,21 @@ line-height: 163%;
 color: #FFFFFF;
 
 }
+
+@media screen and (max-width: 610px) {
+
+    .place__paragraph {
+    font-size: 32px;
+    line-height: 35px;
+    padding: ;
+    }
+ }
+
+@media screen and (max-width: 610px) {
+
+    .place__paragraph {
+  padding:16px ;
+  font-size: 16px;
+  line-height: 163%;
+    }
+ }

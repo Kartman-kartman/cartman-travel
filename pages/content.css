@@ -1,4 +1,10 @@
 .content {
+   max-width: 1184px;
+   margin: 0 auto;
+    background-color: #2A2C2F;
+    font-family: "inter";
     display: flex;
+    position: relative;
     flex-wrap: wrap;
+    justify-content: center;
 }
