@@ -10,16 +10,13 @@
     margin: 0;
     text-transform: uppercase;
 }
-
-@media screen and (max-width: 760px) {
-
+@media screen and (max-width: 363px) {
     .lead__caption {
         padding-left: 16px;
     }
 }
 
-@media (max-width: 1023px) {
-
+@media (max-width: 769px) {
     .lead__caption {
         padding-left: 24px;
     }

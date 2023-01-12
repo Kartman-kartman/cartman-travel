@@ -1,14 +1,24 @@
+.place {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 80px 0 0 0;
+}
 
+
+/* 
 
 .place {
     display: grid;
     width:100% ;
     /* min-height:584px ; */
-    grid-template-columns:repeat(auto-fit,1fr);
+    /* grid-template-columns:repeat(auto-fit,1fr);
     grid-template-rows: repeat(4,min-content);
     grid-auto-rows:minmax(320px,auto);
     grid-auto-flow:dense;
-}
+} */
 
 @media screen and (max-width: 760px) {
 
@@ -30,4 +40,4 @@
         align-items: flex-start;
         /* row-gap: 32px; */
     }
-}
+} */

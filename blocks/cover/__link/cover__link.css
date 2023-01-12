@@ -63,12 +63,19 @@
  @media screen and (max-width: 606px) {
 
     .cover__link {
-        padding: 33px 140px ;
+        padding: 33px 70px ;
+    }
+ }
+ @media screen and (max-width: 357px) {
+
+    .cover__link {
+        padding: 33px 30px ;
     }
  }
 
+
  
- @media screen and (max-width: 319px) {
+ @media screen and (max-width: 323px) {
 
     .cover__link {
         padding: 33px 16px ;

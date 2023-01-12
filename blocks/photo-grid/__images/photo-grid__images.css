@@ -1,8 +1,30 @@
 .photo-grid__images {
-
+    width: 23%;
     margin: 0;
-    padding: 0;
+    padding:8px;
     object-fit: cover;
-   
-  
+}
+
+@media (max-width: 1024px) {
+    .photo-grid__images {
+    width: 31%;
+    padding:7px;
+    }
+    
+}
+
+@media (max-width: 808px) {
+    .photo-grid__images {
+    width: calc((100% - 16px)/2);    
+    padding:4px;
+    }
+    
+}
+
+@media (max-width: 442px) {
+    .photo-grid__images {
+    width: 100%;    
+    padding:4px;
+    }
+    
 }
