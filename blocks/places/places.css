@@ -1,12 +1,25 @@
 .places {
    display: flex;
    box-sizing: border-box;
-   margin:12px 148px;
+   margin:52px 148px;
    width:100%;
    flex-direction: column;
+   justify-content: center;
 
 }
+@media screen and (max-width: 1024px) {
 
+   .places {
+      margin:52px 48px;
+   }
+}
+
+@media screen and (max-width: 768x) {
+
+   .places {
+      margin:52px 24px;
+   }
+}
 @media screen and (max-width: 610px) {
 
    .places {
