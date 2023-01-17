@@ -2,3 +2,16 @@
    align-self: flex-end;
    
 }
+
+@media screen and (max-width: 887px) {
+   .place__info {
+    align-self:flex-start;
+    }
+ }
+
+ @media screen and (max-width: 350px) {
+
+   .place__info {
+      padding-left: 16px;
+   }
+}
