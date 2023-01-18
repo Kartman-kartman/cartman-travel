@@ -15,7 +15,7 @@
 
 @media (max-width: 808px) {
     .photo-grid__images {
-    width: calc((100% - 16px)/2);    
+    width: calc((100% - 16px)/2);
     padding:4px;
     }
     
@@ -23,7 +23,7 @@
 
 @media (max-width: 442px) {
     .photo-grid__images {
-    width: 100%;    
+    width: 100%;
     padding:4px;
     }
     

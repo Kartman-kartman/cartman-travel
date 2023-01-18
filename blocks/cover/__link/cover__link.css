@@ -24,52 +24,52 @@
  @media screen and (max-width: 970px) {
 
     .cover__link {
-        padding: 115px 180px ;
+        padding: 115px 180px;
     }
  }
  @media screen and (max-width: 865px) {
 
     .cover__link {
-        padding: 115px 150px ;
+        padding: 115px 150px;
     }
  } 
  @media screen and (max-width: 806px) {
 
     .cover__link {
-        padding: 115px 120px ;
+        padding: 115px 120px;
     }
  } 
 
  @media screen and (max-width: 728px) {
 
     .cover__link {
-        padding: 115px 104px ;
+        padding: 115px 104px;
     }
  }
  
  @media screen and (max-width: 746px) {
 
     .cover__link {
-        padding: 115px 90px ;
+        padding: 115px 90px;
     }
  }
  @media screen and (max-width: 686px) {
 
     .cover__link {
-        padding: 115px 50px ;
+        padding: 115px 50px;
     }
  }
 
  @media screen and (max-width: 606px) {
 
     .cover__link {
-        padding: 33px 70px ;
+        padding: 33px 70px;
     }
  }
  @media screen and (max-width: 357px) {
 
     .cover__link {
-        padding: 33px 30px ;
+        padding: 33px 30px;
     }
  }
 
@@ -78,6 +78,6 @@
  @media screen and (max-width: 323px) {
 
     .cover__link {
-        padding: 33px 16px ;
+        padding: 33px 16px;
     }
  }

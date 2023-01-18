@@ -8,14 +8,13 @@ grid-area: paragraph;
     .place__paragraph {
     font-size: 32px;
     line-height: 35px;
-    padding: ;
-    }
+  }
  }
 
 @media screen and (max-width: 610px) {
 
     .place__paragraph {
-  padding:16px ;
+  padding:16px;
   font-size: 16px;
   line-height: 163%;
     }
