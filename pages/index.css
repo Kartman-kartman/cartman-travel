@@ -1,24 +1,25 @@
-@import "../vendor/normalize.css";
+@import "../blocks/vendor/normalize.css";
 @import "../fonts/InterWeb/inter.css";
-@import "./content.css";
+@import "../blocks/content.css";
+@import "../fonts/InterWeb/inter.css";
 
 
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/header/__lang-link/header__lang-link_active.css";
 
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__title/lead__title.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
 @import "../blocks/lead/__image/lead__image.css";
 @import "../blocks/lead/__caption/lead__caption.css";
-@import "../blocks/lead/__picture-block/lead__picture-block.css";
-
 
 @import "../blocks/intro/intro.css";
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list/intro__list.css";
+@import "../blocks/intro/__span/intro__span.css";
 
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/photo-grid/__images/photo-grid__images.css";

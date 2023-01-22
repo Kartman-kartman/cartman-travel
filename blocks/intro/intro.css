@@ -3,21 +3,22 @@
     display: flex;
     margin: 0 auto;
     width: 100%;
+    flex-direction: column;
     flex-wrap: wrap;
-    padding:114px 148px 0;
+    padding:95px 148px 0;
 }
 
 @media screen and (max-width: 1119px) {
 
     .intro {
-        padding:114px 286px 0 48px;
+        padding: 93px 286px 0 48px;
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
 
     .intro {
-        padding:110px 24px 0;
+        padding:86px 24px 0;
     }
 }
 
@@ -25,5 +26,12 @@
 
     .intro {
         padding:64px 24px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .intro {
+        padding:60px 16px 0;
     }
 }

@@ -1,13 +1,15 @@
 .header__lang-link {
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
+    text-decoration: none;
     font-size: 24px;
     line-height: 28px;
     color: #fff;
-    margin: 0;
-    text-decoration: none;
+    margin: 0 16px 0 0;
+    
 }
+
 @media screen and (max-width: 760px) {
 
     .header__lang-link {
