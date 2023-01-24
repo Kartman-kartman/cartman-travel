@@ -5,7 +5,7 @@
     width: 100%;
     flex-direction: column;
     flex-wrap: wrap;
-    padding:95px 148px 0;
+    padding:90px 148px 0;
 }
 
 @media screen and (max-width: 1119px) {
@@ -32,6 +32,6 @@
 @media screen and (max-width: 320px) {
 
     .intro {
-        padding:60px 16px 0;
+        padding:62px 16px 0;
     }
 }

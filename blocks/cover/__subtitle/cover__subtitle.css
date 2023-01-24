@@ -28,10 +28,18 @@
         padding: 0 104px;
       }
 }
+
+  
 @media screen and (max-width: 560px) {
   .cover__subtitle {
-      margin:0;
-      padding: 0 16px;
+     margin: 20px auto 0;
+     padding: 0;
+    }
+}
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+     margin: 20px 0 0;
+     padding: 0;
     }
 }
   

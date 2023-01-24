@@ -1,4 +1,4 @@
-.place__text {
+.places__text {
     font-family: 'Inter', 'Arial', sans-serif;
     margin: 0;
     font-style: normal;
@@ -9,14 +9,20 @@
     margin-bottom: 26px;
 }
 
-.place__text:last-child {
+.places__text:last-child {
     margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
 
-    .place__text {
+    .places__text {
         font-size: 16px;
         line-height: 26.08px;
+    }
+}
+@media screen and (max-width: 320px) {
+
+    .places__text {
+      margin-top: 10px;
     }
 }

@@ -3,12 +3,14 @@
     padding: 28px 48px 0;
     display: flex;
     justify-content: space-between;
-    align-items:flex-end;
+    align-items:center;
 }
 
 @media screen and (max-width: 1024px) {
     .header { 
-        padding: 28px 48px 0;}
+        padding: 28px 48px 0;
+        align-items:flex-end;
+    }
    
 }
 
@@ -21,5 +23,11 @@
 @media screen and (max-width: 448px) {
     .header {
          padding: 16px 16px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        align-items:center;
     }
 }

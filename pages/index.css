@@ -1,7 +1,8 @@
-@import "../blocks/vendor/normalize.css";
+@import "../vendor/normalize.css";
+@import "../fonts/InterWeb/inter.css";
+@import "../blocks/page.css";
 @import "../fonts/InterWeb/inter.css";
 @import "../blocks/content.css";
-@import "../fonts/InterWeb/inter.css";
 
 
 @import "../blocks/header/header.css";
@@ -25,15 +26,15 @@
 @import "../blocks/photo-grid/__images/photo-grid__images.css";
 
 @import "../blocks/places/places.css";
-@import "../blocks/places/place/place.css";
-@import "../blocks/places/place/__paragraph/place__paragraph.css";
-@import "../blocks/places/place/__text/place__text.css";
-@import "../blocks/places/place/__title/place__title.css";
-@import "../blocks/places/place/__info/place__info.css";
-@import "../blocks/places/place/__url-heading/place__url-heading.css";
-@import "../blocks/places/place/__link/place__link.css";
-@import "../blocks/places/place/__image/place__image.css";
-@import "../blocks/places/place/__pic/place__pic.css";
+@import "../blocks/places/place.css";
+@import "../blocks/places/__paragraph/places__paragraph.css";
+@import "../blocks/places/__text/places__text.css";
+@import "../blocks/places/__title/places__title.css";
+@import "../blocks/places/__info/places__info.css";
+@import "../blocks/places/__url-heading/places__url-heading.css";
+@import "../blocks/places/__link/places__link.css";
+@import "../blocks/places/__image/places__image.css";
+@import "../blocks/places/__pic/places__pic.css";
 
 
 

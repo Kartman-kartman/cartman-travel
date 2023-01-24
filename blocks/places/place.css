@@ -2,14 +2,13 @@
  .place {
     display: grid;
     box-sizing: border-box;
-    margin: 40px 0;
+    margin-top:70px;
     grid-template-columns: minmax(440px,460px) minmax(456px,484px);
     grid-template-rows:auto;
     row-gap: 48px;
     column-gap: 40px;
     grid-template-areas:
         "title link"
-        "image paragraph"
         "image paragraph";
     max-width: 984px;
 }
@@ -25,8 +24,6 @@
 @media screen and (max-width: 768px) {
 
     .place {
-        margin:0 0 66px 0;
-
     column-gap: 28px;
     row-gap: 50px;
     }
@@ -46,5 +43,13 @@
         width:100%;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .place {
+        margin-top:61px;
+        row-gap: 15px;
     }
 }
