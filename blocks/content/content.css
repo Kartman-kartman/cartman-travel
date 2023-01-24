@@ -1,4 +1,7 @@
 .content {
-    max-width: 1280px;
-    margin:0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
 }
