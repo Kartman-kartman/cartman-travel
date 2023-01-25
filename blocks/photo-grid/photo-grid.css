@@ -44,7 +44,7 @@
 @media (max-width: 320px) {
     .photo-grid {
         padding: 63px 16px 0;
-        row-gap:13px;
+        row-gap:12px;
     }
     
 }

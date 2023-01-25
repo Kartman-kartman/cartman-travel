@@ -11,9 +11,9 @@ grid-area: paragraph;
   }
  }
 
- @media screen and (max-width: 340px) {
+ /* @media screen and (max-width: 340px) {
 
   .places__paragraph {
     margin:0 16px 0;
   }
-}
+} */
