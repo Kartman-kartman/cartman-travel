@@ -1,0 +1,12 @@
+.place__paragraph {
+box-sizing: border-box;
+grid-area: paragraph;
+}
+
+@media screen and (max-width: 610px) {
+
+    .place__paragraph {
+    font-size: 32px;
+    line-height: 35px;
+  }
+ }

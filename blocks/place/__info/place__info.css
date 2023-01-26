@@ -1,16 +1,16 @@
-.places__info {
+.place__info {
    align-self: flex-end;
    
 }
 @media screen and (max-width: 694px) {
 
-   .places__info {
+   .place__info {
       align-self: start;
    }
 }
  @media screen and (max-width: 350px) {
 
-   .places__info {      
+   .place__info {      
       margin: 12px 0 0 0;
       padding-left: 16px;
    }

@@ -27,14 +27,14 @@
 
 @import "../blocks/places/places.css";
 @import "../blocks/place/place.css";
-@import "../blocks/place/__paragraph/places__paragraph.css";
-@import "../blocks/place/__text/places__text.css";
-@import "../blocks/place/__title/places__title.css";
-@import "../blocks/place/__info/places__info.css";
-@import "../blocks/place/__url-heading/places__url-heading.css";
-@import "../blocks/place/__link/places__link.css";
-@import "../blocks/place/__image/places__image.css";
-@import "../blocks/place/__pic/places__pic.css";
+@import "../blocks/place/__paragraph/place__paragraph.css";
+@import "../blocks/place/__text/place__text.css";
+@import "../blocks/place/__title/place__title.css";
+@import "../blocks/place/__info/place__info.css";
+@import "../blocks/place/__url-heading/place__url-heading.css";
+@import "../blocks/place/__link/place__link.css";
+@import "../blocks/place/__image/place__image.css";
+@import "../blocks/place/__pic/place__pic.css";
 
 
 
